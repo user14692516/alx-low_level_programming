@@ -1,1 +1,1 @@
-This are for low level programming languages
+Start coding with C today 
