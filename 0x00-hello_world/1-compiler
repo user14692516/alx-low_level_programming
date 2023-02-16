@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILM
+gcc -S $CFILM
