@@ -1,4 +1,4 @@
-#ifndef _main_h_
-#define _main_h_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-#endif 
+#endif
