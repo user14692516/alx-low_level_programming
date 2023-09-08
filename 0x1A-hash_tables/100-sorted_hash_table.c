@@ -37,12 +37,12 @@ shash_table_t *shash_table_create(unsigned long int size)
 
 /**
  * shash_table_set - Adding an element to a hash table.
- * @ht: a hash poine
+ * @ht: a hash pointer
  * @key: The key to add - cannot be an empty string.
- * @value: The value associated with key.
+ * @value: value associated with key
  *
- * Return: Upon failure - 0.
- *         Otherwise - 1.
+ * Return: Upon failure - 0
+ *         Otherwise - 1
  */
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
@@ -121,8 +121,8 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 /**
  * shash_table_get - Retrieve the value associated with
  *                   a key in a sorted hash table.
- * @ht: A pointer to the sorted hash table.
- * @key: The key to get the value of.
+ * @ht: sorted hash table pointer
+ * @key: the key that getts the value
  *
  * Return: If the key cannot be matched - NULL.
  *         Otherwise - the value associated with key in ht.
@@ -148,7 +148,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 
 /**
  * shash_table_print - Prints a sorted hash table in order.
- * @ht: A pointer to the sorted hash table.
+ * @ht: hash table pointer
  */
 void shash_table_print(const shash_table_t *ht)
 {
@@ -171,7 +171,7 @@ void shash_table_print(const shash_table_t *ht)
 
 /**
  * shash_table_print_rev - Prints a sorted hash table in reverse order.
- * @ht: A pointer to the sorted hash table to print.
+ * @ht: hash table to print.
  */
 void shash_table_print_rev(const shash_table_t *ht)
 {
@@ -193,8 +193,8 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 /**
- * shash_table_delete - Deletes a sorted hash table.
- * @ht: A pointer to the sorted hash table.
+ * shash_table_delete - Deleteing a sorted hash table.
+ * @ht: hash table pointer
  */
 void shash_table_delete(shash_table_t *ht)
 {
