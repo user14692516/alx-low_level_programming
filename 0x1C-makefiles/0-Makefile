@@ -1,0 +1,3 @@
+#make files
+all: school.c
+	gcc main.c school.c -o school
